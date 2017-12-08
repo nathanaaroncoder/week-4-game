@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Crystal Game</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery.js"></script>
+	</head>
+	<body>
+		<div class="container-fluid">
+			<div class="page-header">
+				<h1>Crystal Game <small>Can you match the number?</small></h1>
+			</div>
+
+			<p>A random number will appear.</p>
+			<p>Click on the crystals to find out their individual value.</p>
+			<p>Win the game by clicking the right combination of crystals to match the number.</p>
+			<p>Good luck!</p>
+			
+			<div class="row">
+				<div class="col-xs-5">
+					<div id="random-number"></div>
+				</div>
+				<div class="col-xs-3">
+					<p id="alert"></p>
+					<p>Wins: <div id="wins"></div></p>
+					<p>Losses: <div id="losses"></div></p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-2">
+					<a class="btn btn-default" href="#" role="button">
+						<img src="" alt="">
+					</a>
+				</div>
+				<div class="col-xs-2">
+					<a class="btn btn-default" href="#" role="button">
+						<img src="" alt="">
+					</a>
+				</div>
+				<div class="col-xs-2">
+					<a class="btn btn-default" href="#" role="button">
+						<img src="" alt="">
+					</a>
+				</div>
+				<div class="col-xs-2">
+					<a class="btn btn-default" href="#" role="button">
+						<img src="" alt="">
+					</a>
+				</div>
+			</div>
+
+			<br>
+
+			<div class="row">Your total score is:</div>
+
+			<div class="row">
+				<div id="crystal-count"></div>
+			</div>
+
+
+
+		</div>
+		
+	<script type = "text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
