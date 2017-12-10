@@ -14,7 +14,7 @@
 
 			<p>A random number will appear.</p>
 			<p>Click on the crystals to find out their individual value.</p>
-			<p>Win the game by clicking the right combination of crystals to match the number.</p>
+			<p>Win the game by clicking the right combination of crystals to match the number. Don't go over the number or you lose!</p>
 			<p>Good luck!</p>
 			
 			<div class="row">
@@ -30,22 +30,22 @@
 
 			<div class="row">
 				<div class="col-xs-2">
-					<a class="btn btn-default" href="#" role="button">
+					<a id ="crystal1" class="btn btn-default" href="#" role="button">
 						<img src="" alt="">
 					</a>
 				</div>
 				<div class="col-xs-2">
-					<a class="btn btn-default" href="#" role="button">
+					<a id = "crystal2"class="btn btn-default" href="#" role="button">
 						<img src="" alt="">
 					</a>
 				</div>
 				<div class="col-xs-2">
-					<a class="btn btn-default" href="#" role="button">
+					<a id = "crystal3" class="btn btn-default" href="#" role="button">
 						<img src="" alt="">
 					</a>
 				</div>
 				<div class="col-xs-2">
-					<a class="btn btn-default" href="#" role="button">
+					<a id = "crystal4" class="btn btn-default" href="#" role="button">
 						<img src="" alt="">
 					</a>
 				</div>
@@ -53,10 +53,18 @@
 
 			<br>
 
-			<div class="row">Your total score is:</div>
+			<div class="row">
+				The current total is:
+				<div id="total"></div>
+
+			</div>
 
 			<div class="row">
 				<div id="crystal-count"></div>
+			</div>
+
+			<div class="row">
+				<div id="messages"></div>
 			</div>
 
 
