@@ -41,7 +41,7 @@ function reset (){
 
 reset();
 
-var win = 0;
+var wins = 0;
 var losses = 0;
 
 

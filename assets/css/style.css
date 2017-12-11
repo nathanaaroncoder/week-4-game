@@ -1,0 +1,48 @@
+img {
+	height: 100px;
+	width: 100px;
+}
+
+.page-header{
+	margin-top: 20px;
+}
+
+#wins, #losses, .statbox {
+	text-align: center;
+}
+
+.statbox{
+	margin-bottom: 20px;
+}
+
+.messageBox{
+	margin-left: 0px;
+	font-size: 150%;
+	text-align: center;
+}
+
+.container-fluid{
+	margin-left: 2%;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 2px;
+	font-size: 125%;
+}
+
+body {
+	background-image: url(../images/magicSmoke.jpg);
+	background-size: 100% 200%;
+}
+
+.btn{
+	padding: 1%;
+}
+
+#smallHead {
+	color: #01FF70;
+}
+
+#random-number {
+	font-size: 250%;
+	padding: 10px 0px;
+}
