@@ -26,7 +26,7 @@ function makeCrystal4(){
 
 
 function makeRandom(){
-	randomNumber = Math.floor(Math.random() * 100) + 1;
+	randomNumber = Math.floor(Math.random() * 101) + 19;
 	$("#random-number").html(randomNumber);
 }
 
@@ -77,7 +77,7 @@ function checkWins(){
 		losses++;
 		$("#losses").html(losses);
 		reset();
-		$("#messages").html("Oh no! You destroyed your crystals! Try again!");
+		$("#messages").html("Oh no! You destroyed your crystals! Try again.");
 	} else if(total < randomNumber) {
 		$("#messages").html("So... Can you match the number?")
 	}
